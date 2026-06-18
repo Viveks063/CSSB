@@ -96,7 +96,8 @@ export const Component = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.9, duration: 0.7 }}
                 >
-                    Experience the timeless folk theater of coastal Karnataka — ornate headgear, soul-stirring music, and stories from ancient epics, hosted by CSSB.
+                    Experience the timeless folk theater of coastal Karnataka ornate headgear, 
+                    soul-stirring music, and stories from ancient epics, hosted by CSSB.
                 </motion.div>
             </div>
         </motion.div>
