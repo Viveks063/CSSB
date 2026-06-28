@@ -22,7 +22,7 @@ export default function Hero() {
       <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-saffron/20 blur-[120px] -translate-y-1/3 translate-x-1/4 pointer-events-none z-10" />
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full bg-temple-gold/15 blur-[120px] translate-y-1/3 -translate-x-1/4 pointer-events-none z-10" />
 
-      <div className="relative z-20 max-w-7xl mx-auto pl-4 pr-6 sm:pl-6 sm:pr-8 lg:pl-8 lg:pr-16 pt-24 pb-12 w-full">
+      <div className="relative z-20 max-w-7xl mx-auto pl-4 pr-6 sm:pl-6 sm:pr-8 lg:pl-8 lg:pr-16 pt-40 pb-12 w-full">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* Sanskrit shloka */}
           <p className="font-heading italic text-[#FFD700] text-base sm:text-lg mb-6 tracking-wide drop-shadow-[0_0_15px_rgba(255,215,0,0.6)]">
@@ -37,7 +37,7 @@ export default function Hero() {
             <img src="/cssb-logo.png" className="relative w-40 mx-auto" />
           </div>
           <h1 className="font-heading text-white text-4xl md:text-6xl font-bold leading-tight">
-            CULTURAL SEVA SANTHA
+            CULTURAL SEVA SANSTHA
           </h1>
 
           <h1 className="font-heading text-[#D4A017] text-3xl md:text-5xl font-bold mt-2">

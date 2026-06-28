@@ -1,8 +1,13 @@
 import { Home, Calendar, Heart, Users, Info, Phone } from "lucide-react";
 import { LimelightNav, type NavItem } from "@/components/ui/limelight-nav";
 
+import TopBar from "@/components/TopBar";
 import Hero from "@/components/Hero";
 import Impact from "@/components/Impact";
+import Initiatives from "@/components/Initiatives";
+import Events from "@/components/Events";
+import GetInvolved from "@/components/GetInvolved";
+import NewsAndGallery from "@/components/NewsAndGallery";
 import Footer from "@/components/Footer";
 
 const navItems: NavItem[] = [
@@ -48,8 +53,13 @@ export default function App() {
   return (
     <div className="min-h-screen bg-cream">
 
+      {/* Top contact bar */}
+      <div className="fixed top-0 left-0 right-0 z-50">
+        <TopBar />
+      </div>
+
       {/* Navbar */}
-      <div className="fixed top-6 left-1/2 -translate-x-1/2 z-50">
+      <div className="fixed top-14 left-1/2 -translate-x-1/2 z-50">
         <LimelightNav
           items={navItems}
           className="bg-white/80 backdrop-blur-md border-cream-dark shadow-lg rounded-xl"
@@ -59,6 +69,10 @@ export default function App() {
       {/* Sections */}
       <Hero />
       <Impact />
+      <Initiatives />
+      <Events />
+      <GetInvolved />
+      <NewsAndGallery />
 
       {/* Footer */}
       <Footer />
