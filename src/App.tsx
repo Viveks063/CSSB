@@ -3,7 +3,6 @@ import { LimelightNav, type NavItem } from "@/components/ui/limelight-nav";
 
 import TopBar from "@/components/TopBar";
 import Hero from "@/components/Hero";
-import Impact from "@/components/Impact";
 import Initiatives from "@/components/Initiatives";
 import Events from "@/components/Events";
 import GetInvolved from "@/components/GetInvolved";
@@ -68,7 +67,6 @@ export default function App() {
 
       {/* Sections */}
       <Hero />
-      <Impact />
       <Initiatives />
       <Events />
       <GetInvolved />

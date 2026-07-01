@@ -16,7 +16,7 @@ export default function Hero() {
       </video>
 
       {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-maroon-dark/70 via-maroon-dark/60 to-black/80 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-b via-maroon-dark/60" />
 
       {/* Saffron accent glow */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-saffron/20 blur-[120px] -translate-y-1/3 translate-x-1/4 pointer-events-none z-10" />
